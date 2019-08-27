@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Where the Sentiment Is</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <!-- <a class="navbar-brand" href="">Home</a> -->
+          <a class="navbar-brand" href="/">
+              <img src="static/images/world-cup.svg" width="35" height="35" class="d-inline-block align-top" alt="">
+            </a>
+          <!-- img src="/assets/images/dcflag.svg" -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/story">The Story<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Visualizations<span class="sr-only">(current)</span></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="/equity">Equity</a>
+                      <a class="dropdown-item" href="/charts">The Data</a>
+                      <a class="dropdown-item" href="/locations">Locations</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="/latest">Latest <i class="fa fa-twitter fa-1x fa-primary"></i></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
+
+
+    <div class="hero4 text-center">
+      <br>
+
+    </div>
+<br>
+
+
+      <div class="container">
+            <div class="jumbotron text-center">
+
+              <h1 class="display-4"><i>Where the <i class="fa fa-twitter fa-1x fa-primary"></i> are...</i> </h1>
+              
+            </div>
+      </div>
+
+
+      <div class="container text-center"> 
+            <br>
+            <h1>Twitter User Locations</h1>
+          </div>
+          <div class="container"> 
+          <div id="map"></div>
+          
+          <script type="text/javascript" src="static/js/config.js"></script>
+
+          <script type="text/javascript" src="static/js/tweetlocations.js"></script>
+        </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <br>
+
+
+
+
+  <div class="container text-center">
+        <p><i><a href="https://github.com/eherchen/DATA_womens-soccer"><i class="fa fa-github fa-2x fa-secondary"></i></a></p>
+      </div>
+    
+        <footer class="jumbotron text-center bg-primary disabled" id="footer">
+    
+            <p>© Copyright Team GELCAP, 2019</p>
+            <p></p>
+            
+        
+        
+        </footer>
+
+</body>
+
+</html>
+
+
