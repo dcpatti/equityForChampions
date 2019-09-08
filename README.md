@@ -1,6 +1,5 @@
 # EquityForChampions   
 
-Visit live site:  https://soccer-equity.s3.amazonaws.com/index.html
 
 This group project seeks to identify and explore social media bias surrounding the US Womens National Soccer Team following their recent World Cup championship. There are several stages in this project.
 
@@ -12,6 +11,7 @@ This group project seeks to identify and explore social media bias surrounding t
 * Deployed to Amazon Web Services 
 
 
+Visit live site at  https://soccer-equity.s3.amazonaws.com/index.html for this and many other visualizations.
 
 
 ![image](https://github.com/dcpatti/EquityForChampions/blob/master/tweet_thumbnail.JPG)
